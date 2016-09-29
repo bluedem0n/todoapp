@@ -1,5 +1,4 @@
-window.onload = function () {
-
+window.addEventListener("load", function () {
 	var contenedor = document.getElementById("contenedor"),
 		btnNuevaTarea = document.getElementById("btnNuevaTarea"),
 		tarea = document.getElementById("tarea");
@@ -62,4 +61,4 @@ window.onload = function () {
 		btnNuevaTarea.disabled = true;
 		tarea.value = "";
 	});
-};
+});
