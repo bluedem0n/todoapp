@@ -1,91 +1,94 @@
-* {
-	margin: 0;
-	padding: 0;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
+			* {
+			margin: 0;
+			padding: 0;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+		}
 
-body {
-	background: #FAFAFA;
-	font-family: 'Raleway', sans-serif;
-	font-size: 16px;
-}
+		body {
+			background: #FAFAFA;
+			font-family: 'Raleway', sans-serif;
+			font-size: 16px;
+		}
 
-.wrap {
-	margin: auto;
-	max-width: 800px;
-	width: 90%;
-}
-.formulario{
-    position: relative;
-	margin-left: 2.5em;
+		.wrap {
+			margin: auto;
+			max-width: 800px;
+			width: 90%;
+		}
 
-}
-.titulo{
-    text-align: center;
-	margin-bottom: 1.5em;
-}
+		.formulario {
+			position: relative;
+			margin-left: 2.5em;
+		}
 
-.principal {
-	background: #56f580;
-	border-top: 20px solid #56f580;
-	color: #fff;
-	padding: 30px 0;
-	width: 100%;
-}
+		.titulo {
+			text-align: center;
+			margin-bottom: 1.5em;
+		}
 
-.principal .formulario textarea{
-    overflow: hidden;
-	margin-bottom: 10px;
-    padding: 15px;
-    width: 85%;
-    resize: none;
-    color: black;
-	border-radius: 10px;
-    height: 80px;
-}
-.principal .formulario .boton:hover {
-	border: 1px solid #fff;
-}
+		.principal {
+			background: #56f580;
+			border-top: 20px solid #56f580;
+			color: #fff;
+			padding: 30px 0;
+			width: 100%;
+		}
 
-/* - Tareas - */
+		.principal .formulario textarea {
+			overflow: hidden;
+			margin-bottom: 10px;
+			padding: 15px;
+			width: 85%;
+			resize: none;
+			color: black;
+			border-radius: 10px;
+			height: 80px;
+		}
 
-.lista {
-    padding: 10px 18px 18px 18px;
-    background-color: #F5F5F5;
-    border-radius: 10px;
-    height: auto;
-    width: 100%;
-    margin-top: 0.5em;
-}
+		.principal .formulario .boton:hover {
+			border: 1px solid #fff;
+		}
+		/* - Tareas - */
 
-.lista p {
-    word-wrap: break-word;
-    margin-top: 0.5em;
+		.lista {
+			padding: 10px 18px 18px 18px;
+			background-color: #F5F5F5;
+			border-radius: 10px;
+			height: auto;
+			width: 100%;
+			margin-top: 0.5em;
+		}
 
-}
-p{
-	padding-left: 0.5em;
-}
+		.lista p {
+			word-wrap: break-word;
+			margin-top: 0.5em;
+		}
 
-/* Trash Icono */
+		p {
+			padding-left: 0.5em;
+		}
+		/* Trash Icono */
 
-.icono {
-    color: cornflowerblue;
-    float: right;
-	position: relative;
-	display: inline-block;
-}
+		.icono {
+			color: cornflowerblue;
+			float: right;
+			position: relative;
+			display: inline-block;
+		}
 
-#contenedor{
-	margin: 15px 0;
-	height: 300px;
-	overflow-y: scroll;
-	overflow: auto;
-}
+		#contenedor {
+			margin: 15px 0;
+			height: 300px;
+		}
 
-.linea{
-	text-decoration:line-through;
-}
+		.linea {
+			text-decoration: line-through;
+		}
 
+		@media (max-width: 480px) {
+			#contenedor {
+				overflow-y: scroll;
+				overflow: auto;
+			}
